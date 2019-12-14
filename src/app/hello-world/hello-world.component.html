@@ -1,0 +1,14 @@
+<p>hello-world works!</p>
+<div>
+    {{ message }}<br>{{ sdate }}<br>{{ stime }}<br>{{ num1 + 2 }}
+  </div>
+<input name="iname" placeholder="ENter your name" (keyup)="onKeyUp($event)">
+<button (click)="getData()">Click me</button>
+<p>Hi there</p>
+<div *ngIf="Value">
+<ul *ngFor="let val of Value">
+<li>{{val.TNAME}}</li>
+<li>{{val.SEM}}</li>
+<li>{{val.SUB}}</li>
+</ul>
+</div>
